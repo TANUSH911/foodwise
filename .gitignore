@@ -1,0 +1,24 @@
+# Build output
+target/
+
+# Local H2 database files (recreated automatically on first run)
+data/
+
+# Vaadin / Node generated files
+node_modules/
+src/main/frontend/generated/
+vite.generated.ts
+src/main/bundles/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Secrets
+.env
+*.local.properties
+
+# Local Claude Code tooling
+.claude/
